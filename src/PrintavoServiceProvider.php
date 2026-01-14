@@ -86,3 +86,4 @@ class PrintavoServiceProvider extends ServiceProvider
         }
     }
 }
+

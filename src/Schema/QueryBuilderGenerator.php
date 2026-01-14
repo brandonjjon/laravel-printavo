@@ -186,14 +186,7 @@ PHP;
         $methods = [];
 
         foreach ($filterArgs as $arg) {
-            $method = $this->generateFilterMethod($arg);
-            if ($method !== null) {
-                $methods[] = $method;
-            }
-        }
-
-        if (empty($methods)) {
-            return '';
+            $methods[] = $this->generateFilterMethod($arg);
         }
 
         return "\n".implode("\n", $methods);
@@ -202,7 +195,7 @@ PHP;
     /**
      * Generate a single typed filter method.
      */
-    private function generateFilterMethod(ArgumentDefinition $arg): ?string
+    private function generateFilterMethod(ArgumentDefinition $arg): string
     {
         $methodName = $arg->name;
         $graphqlType = $arg->type;

@@ -85,12 +85,6 @@ parameters:
 			path: src/Schema/ParsedSchema.php
 
 		-
-			message: '#^Property Brandonjjon\\Printavo\\Schema\\QueryBuilderGenerator\:\:\$typeMapper is never read, only written\.$#'
-			identifier: property.onlyWritten
-			count: 1
-			path: src/Schema/QueryBuilderGenerator.php
-
-		-
 			message: '#^Unsafe usage of new static\(\)\.$#'
 			identifier: new.static
 			count: 1

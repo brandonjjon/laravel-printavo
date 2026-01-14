@@ -1,0 +1,7 @@
+providers:
+  - Brandonjjon\Printavo\PrintavoServiceProvider
+
+env:
+  PRINTAVO_EMAIL: "test@example.com"
+  PRINTAVO_TOKEN: "test-token"
+  PRINTAVO_ENDPOINT: "https://www.printavo.com/api/v2"

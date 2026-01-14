@@ -1,0 +1,97 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Cache/ResponseCache.php
+
+		-
+			message: '#^Command "printavo\:generate" does not have option "fresh"\.$#'
+			identifier: larastan.console.undefinedOption
+			count: 1
+			path: src/Console/PrintavoGenerateCommand.php
+
+		-
+			message: '#^Command "printavo\:generate" does not have option "schema"\.$#'
+			identifier: larastan.console.undefinedOption
+			count: 1
+			path: src/Console/PrintavoGenerateCommand.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Data/BaseData.php
+
+		-
+			message: '#^Offset ''message'' on array\{message\: string, locations\?\: array, path\?\: array, extensions\?\: array\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: src/Exceptions/PrintavoException.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Exceptions/PrintavoException.php
+
+		-
+			message: '#^Offset ''message'' on array\{field\?\: string, message\: string\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: src/Mutations/MutationResponse.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 2
+			path: src/Mutations/MutationResponse.php
+
+		-
+			message: '#^Method Illuminate\\Http\\Client\\Response\:\:header\(\) invoked with 2 parameters, 1 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: src/PrintavoClient.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/PrintavoClient.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Schema/ArgumentDefinition.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Schema/FieldDefinition.php
+
+		-
+			message: '#^Property Brandonjjon\\Printavo\\Schema\\MutationBuilderGenerator\:\:\$typeMapper is never read, only written\.$#'
+			identifier: property.onlyWritten
+			count: 1
+			path: src/Schema/MutationBuilderGenerator.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Schema/ParsedSchema.php
+
+		-
+			message: '#^Property Brandonjjon\\Printavo\\Schema\\QueryBuilderGenerator\:\:\$typeMapper is never read, only written\.$#'
+			identifier: property.onlyWritten
+			count: 1
+			path: src/Schema/QueryBuilderGenerator.php
+
+		-
+			message: '#^Unsafe usage of new static\(\)\.$#'
+			identifier: new.static
+			count: 1
+			path: src/Schema/TypeDefinition.php

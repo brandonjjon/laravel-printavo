@@ -2,9 +2,9 @@
 
 [![Tests](https://github.com/brandonjjon/laravel-printavo/actions/workflows/run-tests.yml/badge.svg)](https://github.com/brandonjjon/laravel-printavo/actions/workflows/run-tests.yml)
 [![PHPStan](https://github.com/brandonjjon/laravel-printavo/actions/workflows/phpstan.yml/badge.svg)](https://github.com/brandonjjon/laravel-printavo/actions/workflows/phpstan.yml)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/brandonjjon/laravel-printavo.svg?style=flat-square)](https://packagist.org/packages/brandonjjon/laravel-printavo)
-[![Total Downloads](https://img.shields.io/packagist/dt/brandonjjon/laravel-printavo.svg?style=flat-square)](https://packagist.org/packages/brandonjjon/laravel-printavo)
-[![License](https://img.shields.io/packagist/l/brandonjjon/laravel-printavo.svg?style=flat-square)](https://packagist.org/packages/brandonjjon/laravel-printavo)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/brandonjjon/laravel-printavo.svg)](https://packagist.org/packages/brandonjjon/laravel-printavo)
+[![Total Downloads](https://img.shields.io/packagist/dt/brandonjjon/laravel-printavo.svg)](https://packagist.org/packages/brandonjjon/laravel-printavo)
+[![License](https://img.shields.io/packagist/l/brandonjjon/laravel-printavo.svg)](https://packagist.org/packages/brandonjjon/laravel-printavo)
 
 A Laravel package providing an Eloquent-like interface to the Printavo GraphQL API. Query customers, orders, invoices, and more using familiar Laravel patterns.
 
